@@ -8,8 +8,8 @@ export const Home = () => {
         <p className="secondary">Hello, World! I'm</p>
         <h1 className="primary">Mel</h1>
         <p>
-          Aspiring Full Stack Engineer passionate about coding, cooking, and
-          animals.
+          Aspiring Full Stack Web Developer passionate about coding, cooking,
+          and animals.
         </p>
       </div>
       <img alt="mel" src="https://i.imgur.com/fBOG6th.png" />

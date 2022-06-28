@@ -23,8 +23,8 @@
 .home img {
   margin: 2rem;
   display: block;
-  width: 50%;
-  max-width: 50%;
+  width: 30%;
+  height: auto;
   border: 3px solid #ff7597;
   box-shadow: 10px 10px 1px #ff3366;
   border-radius: 25px;

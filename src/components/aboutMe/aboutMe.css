@@ -27,6 +27,7 @@
 
 #about .container img {
   width: 100%;
+  height: 40vw;
   border: 3px solid #ff7597;
   box-shadow: 10px 10px 1px #ff3366;
   border-radius: 25px;
@@ -87,10 +88,11 @@
 
 #about p {
   max-width: 80%;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 #about ul {
+  margin: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
