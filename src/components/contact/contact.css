@@ -1,0 +1,43 @@
+#contact {
+  margin-top: 12rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12rem;
+}
+
+#contact img {
+  width: 30%;
+  background-color: #ff7597;
+  border-radius: 10px;
+  padding: 0.5rem;
+  box-shadow: 10px 10px 5px #1b141f;
+  max-width: 8rem;
+}
+
+#contact ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact img:hover {
+  background-color: whitesmoke;
+}
+
+#contact h2 {
+  margin-bottom: 3rem;
+}
+
+#contact p {
+  width: 50%;
+  margin-bottom: 2rem;
+}

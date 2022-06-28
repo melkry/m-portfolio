@@ -1,0 +1,9 @@
+footer {
+  width: 100%;
+  background-color: rgba(13, 10, 15, 0.9);
+  margin: 0px;
+}
+
+footer p {
+  margin-left: 2rem;
+}

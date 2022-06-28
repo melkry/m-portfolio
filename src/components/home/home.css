@@ -1,0 +1,42 @@
+.home {
+  width: 80%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13rem;
+  margin-bottom: 12rem;
+}
+
+.home #text {
+  margin: 2rem;
+  min-width: 40%;
+  max-width: 70%;
+}
+
+.home h1 {
+  text-shadow: 1px 1px 2px pink;
+  margin-top: 0px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.home img {
+  margin: 2rem;
+  display: block;
+  width: 50%;
+  max-width: 50%;
+  border: 3px solid #ff7597;
+  box-shadow: 10px 10px 1px #ff3366;
+  border-radius: 25px;
+  background-color: rgba(245, 161, 182, 0.644);
+}
+
+@media only screen and (max-width: 480px) {
+  .home {
+    flex-direction: column;
+  }
+  .home img {
+    margin: 0;
+    min-width: 90%;
+  }
+}

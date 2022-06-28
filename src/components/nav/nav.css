@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 1rem 1rem #1b141f;
+  background-color: rgba(13, 10, 15, 0.9);
+  height: 3rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:visited,
+nav a:link {
+  color: #ff7597;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav ul {
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0rem 1rem;
+}

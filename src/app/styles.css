@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  background: #1f1a24;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.primary {
+  color: #ff7597;
+  font-family: "Source Code Pro", monospace;
+}
+
+.secondary {
+  color: #43e2da;
+  font-family: "Source Code Pro", monospace;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}

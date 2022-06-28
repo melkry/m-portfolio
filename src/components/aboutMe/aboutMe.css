@@ -1,0 +1,119 @@
+#about {
+  background-image: linear-gradient(
+      rgba(13, 10, 15, 0.6),
+      rgba(13, 10, 15, 0.6)
+    ),
+    url("https://wallpaper.dog/large/268186.jpg");
+  width: 80%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12rem 0rem;
+  border-radius: 2rem;
+  box-shadow: 10px 10px 5px #1b141f;
+}
+
+#about .container {
+  min-height: 60%;
+  min-width: 40%;
+  width: 50%;
+  margin-right: 6rem;
+  margin: 2rem;
+  position: relative;
+}
+
+#about .container img {
+  width: 100%;
+  border: 3px solid #ff7597;
+  box-shadow: 10px 10px 1px #ff3366;
+  border-radius: 25px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.container #slides-previous {
+  position: absolute;
+  top: 90%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.container #slides-next {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.container figcaption {
+  background-color: rgba(13, 10, 15, 0.5);
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0px 0.5rem;
+  font-size: 1.8vw;
+}
+
+#about-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#about p {
+  max-width: 80%;
+  margin-bottom: 1rem;
+}
+
+#about ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about ul img {
+  box-shadow: none;
+  border: none;
+  width: 50%;
+  max-width: 8rem;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+  #about {
+    flex-direction: column;
+    text-align: center;
+  }
+  #about .container {
+    min-height: auto;
+    min-width: 80%;
+  }
+  .container figcaption {
+    font-size: 4.5vw;
+  }
+}
